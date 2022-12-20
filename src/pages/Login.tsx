@@ -1,4 +1,5 @@
 import React from "react";
+import GoogleSignIn from "../google/GoogleSignIn";
 import AuthContext from "./AuthContext";
 
 function Login() {
@@ -10,7 +11,7 @@ function Login() {
     return(
         <div>
             <h1>Please Log in</h1>
-            <button onClick={() => authContext.login()}>Login</button>
+            <GoogleSignIn />
         </div>
     );
 }
