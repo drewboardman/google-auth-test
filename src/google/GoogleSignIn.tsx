@@ -1,13 +1,12 @@
 function GoogleSignIn() {
   return (
     <>
-      <script src="https://accounts.google.com/gsi/client" async defer></script>
       <div
         id="g_id_onload"
-        data-client_id="140780352929-jbnhqp6010lfo2lql69p5je4k8fbjqbg.apps.googleusercontent.com"
+        data-client_id="140780352929-nf24d8t32j5vfvfj0lk6sre86ktc14pi.apps.googleusercontent.com"
         data-context="signin"
         data-ux_mode="popup"
-        data-login_uri="localhost:3000/login"
+        data-login_uri="http://localhost:8080/v1/auth/createUser"
         data-auto_prompt="false"
       ></div>
       <div
