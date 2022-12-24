@@ -1,6 +1,6 @@
 import React from "react";
 import GoogleSignIn from "../google/GoogleSignIn";
-import AuthContext from "./AuthContext";
+import { AuthContext } from "./AuthContext";
 
 function Login() {
     const authContext = React.useContext(AuthContext);
